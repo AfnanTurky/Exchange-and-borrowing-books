@@ -23,22 +23,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="749" />
+          <entry key="py" value="762" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="749" />
+          <entry key="Python" value="762" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="gif" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Image" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -48,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/AvailableBooks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="448">
+              <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="138" selection-end-column="47" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -84,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/FrameSpecialty.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="525">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
               </folding>
@@ -102,11 +104,12 @@
         <option value="$PROJECT_DIR$/FrameSpecialty.py" />
         <option value="$PROJECT_DIR$/insertFrame.py" />
         <option value="$PROJECT_DIR$/AvailableBooks.py" />
+        <option value="$PROJECT_DIR$/../Exchange_Borrowing_Books/FrameSpecialty.py" />
         <option value="$PROJECT_DIR$/../Exchange_Borrowing_Books/AvailableBooks.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="236" />
     <option name="y" value="23" />
     <option name="width" value="976" />
@@ -147,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.insertFrame">
+  <component name="RunManager" selected="Python.FrameSpecialty (1)">
     <configuration name="AvailableBooks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="secondProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,6 +185,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Frame4_randa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FrameSpecialty (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="secondProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Exchange_Borrowing_Books" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Exchange_Borrowing_Books/FrameSpecialty.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,9 +275,11 @@
       <item itemvalue="Python.FrameSpecialty" />
       <item itemvalue="Python.insertFrame" />
       <item itemvalue="Python.Frame4_randa" />
+      <item itemvalue="Python.FrameSpecialty (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FrameSpecialty (1)" />
         <item itemvalue="Python.insertFrame" />
         <item itemvalue="Python.FrameSpecialty" />
         <item itemvalue="Python.AvailableBooks" />
@@ -276,6 +302,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22991072" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -358,16 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/FrameSpecialty.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/insertFrame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
@@ -378,10 +395,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/appBG.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/FrameSpecialty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Exchange_Borrowing_Books/AvailableBooks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="448">
+          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="138" selection-end-column="47" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>

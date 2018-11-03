@@ -24,7 +24,7 @@ class Framespecialty():
         lf.place(x=50,y=260)
 
         #Scrollbar
-        # s=Scrollbar(lf,orient=VERTICAL)
+        # s=Scrollbar(lf,orient=VERTCAL)
         # s.grid(row=1,column=1,sticky=N+S+W,padx=0,pady=50)
         scrollbar = Scrollbar(lf, orient=VERTICAL, )
         scrollbar.pack(side=RIGHT, fill=Y)

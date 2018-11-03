@@ -122,19 +122,22 @@ class AvailableBooks():
             Framespecialty().frame1()
 
 
-        if (data)=='NoBooks':
-            Label(canvas,text=unicode("لا يوجد كتب ! ", "utf-8")).place(x=150,y=90)
-        else:
-            im = list(range(len(data)))
 
-            # this loop place book name image and price thaat gots from database
-            for i in range(len(data)):
-                #print data[i][1]
+        im = list(range(len(data)))
 
-                 #to change image size
+        # this loop place book name image and price thaat gots from database
+        for i in range(len(data)):
+                #byteImgIO = io.BytesIO(data[i][1])
+                #byteImg = Image.open(byteImgIO)
 
-                im1 = img.resize((150, 150), PIL.Image.ANTIALIAS)
-                im[i] = ImageTk.PhotoImage(im1)
+                #file_like = BytesIO(data[i][1])
+                #img1 = PIL.Image.open(file_like, mode='r').convert('RGB')
+
+
+                file_like=cStringIO.StringIO(data[i][1])
+                img1=PIL.Image.open(file_like,mode='r').convert('RGB')
+                im1 = img1.resize((150, 150), PIL.Image.ANTIALIAS)# to chage image size
+                im[i]=ImageTk.PhotoImage(im1)
 
                 Button(frame,text=unicode(" اسم الكتاب: ", "utf-8") + str(data[i][0]) + '\n' + unicode(" سعر الكتاب: ","utf-8") + str(data[i][2])
                                , compound='top', image=im[i], command=lambda i=i: take(i,self.tableName)).pack()
