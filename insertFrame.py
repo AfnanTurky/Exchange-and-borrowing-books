@@ -80,10 +80,9 @@ class database():
 
 
             def insert_Button():
-                blob_value = open(folder_path.get(), 'rb').read()
-                args = (blob_value, )
-                sql = "insert into %s (Book_name,Book_image,seller_email,seller_phone,Book_price) VALUES('%s','%s','%s','%d',%d)" % (
-                    tableName, bookName.get(),args, email.get(), int(phoneNo.get()),float(bookPrice.get()))
+
+                sql = "insert into %s (Book_name,Book_image,seller_email,seller_phone,Book_price) VALUES('%s',LOAD_FILE('%s'),'%s','%d',%d)" % (
+                    tableName, bookName.get(),folder_path.get(), email.get(), int(phoneNo.get()),float(bookPrice.get()))
                 # sql="INSERT INTO %s VALUES('%s',LOAD_FILE('%s'),'%s','%s',$d)"%(np,e,nob,p)
 
                 conn = self.connect()
