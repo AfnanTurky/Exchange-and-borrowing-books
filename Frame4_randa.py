@@ -63,6 +63,13 @@ class BOOK_PROGRAM():
             tkMessageBox.showinfo(unicode("تأكيد","utf-8"),unicode(" تم تأكيد طلبك بنجاح\n"
                                            "سيتم التواصل معك من قبل مالك الكتاب\n\n"
                                            "شكرا لك !","utf-8"))
+            connect = self.connect_DataBase()
+            cur = connect.cursor()
+
+            sql = "delete from {} where id = {}".format(table, id)
+            cur.execute(sql)
+            connect.commit()
+            connect.close()
             root2.destroy()
             # self.Basic_frame()
 

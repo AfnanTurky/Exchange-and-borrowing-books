@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import tkMessageBox
 from Tkinter import *
 from PIL import Image,ImageTk
 
@@ -54,9 +55,12 @@ class Framespecialty():
         #function select
         def whatselect():
             p=list1.curselection()
-            root.destroy()
-            from AvailableBooks import AvailableBooks
-            AvailableBooks().show(p[0]+1)
+            if len(p)==0:
+                tkMessageBox.showinfo(unicode("لا يوجد اختيار ","utf-8"),unicode(" الرجاء اخيار تخصص ","utf-8"))
+            else:
+                  root.destroy()
+                  from AvailableBooks import AvailableBooks
+                  AvailableBooks().show(p[0]+1)
 
 
         #Button search

@@ -2,6 +2,7 @@
 import base64
 import cStringIO
 import io
+import tkMessageBox
 from io import BytesIO
 import pymysql
 from Tkinter import Tk, Scrollbar, Canvas, RIGHT, Y, LabelFrame, Frame, Label, Button, E
@@ -70,9 +71,8 @@ class AvailableBooks():
         # for i in data:
         #     print i
         if len(data)==0:
-            self.displayFrame('NoBooks')
+          tkMessageBox.showinfo(unicode("لا يوجد كتب ","utf-8"),unicode(" عذراً!! لاتوجد كتب في هذا التخصص ","utf-8"))
         else:
-
             self.displayFrame(data)
 
         # this method display the frame containing all book information for field specified in show method
@@ -108,7 +108,7 @@ class AvailableBooks():
         def take(id,tableName):
             root.destroy()
             from Frame4_randa import BOOK_PROGRAM
-            BOOK_PROGRAM().show(id,tableName)
+            BOOK_PROGRAM().show(id+1,tableName)
 
         def insert(tableName,tableIndex):
             print('entered ')
