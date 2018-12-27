@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8f557f-6f05-46a2-b12b-450a4b71d16c" name="Default" comment="i change the method of insert image in DB, but it still has error with sql synax">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvailableBooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvailableBooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frame4_randa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Frame4_randa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrameSpecialty.py" beforeDir="false" afterPath="$PROJECT_DIR$/FrameSpecialty.py" afterDir="false" />
-    </list>
+    <list default="true" id="8a8f557f-6f05-46a2-b12b-450a4b71d16c" name="Default" comment="i change the method of insert image in DB, but it still has error with sql synax" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     <session id="-1721707974">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="2" />
